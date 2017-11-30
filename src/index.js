@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import ProviderBox from './ProviderBox';
 
 ReactDOM.render(
- <ProviderBox />,
- document.getElementById('root')
+	<ProviderBox  url='http://localhost:3001/api/providers'
+ pollInterval={2000} />,
+	document.getElementById('root')
 );

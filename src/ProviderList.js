@@ -3,19 +3,18 @@ import Provider from './Provider';
 import style from './style';
 
 class ProviderList extends Component {
- render() {
- let providerNodes = this.props.data.map(provider => {
- return (
- <Provider name={ provider.name } key={ provider.id }>
-  { provider.name}
- </Provider>
- )
- })
- return (
- <div style={ style.providerList }>
- { providerNodes }
- </div>
- )
- }
+	render() {
+		let providerNodes = this.props.data.map(provider => {
+			return(
+				<Provider name={ provider.providerName } data= {provider} key={ provider._id }>
+        </Provider>
+			)
+		})
+		return(
+			<div style={ style.providerList }>
+        { providerNodes }
+      </div>
+		)
+	}
 }
 export default ProviderList;
