@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import style from './style';
-import marked from 'marked';
+
 class Provider extends Component {
 	render() {
 		return(
@@ -15,7 +15,6 @@ class Provider extends Component {
         <div> Average Covered Charges: {this.props.data['Average Covered Charges']} </div>
         <div> Average Total Payments:  {this.props.data['Average Total Payments']} </div>
         <div> Average Medicare Payments: {this.props.data['Average Medicare Payments']} </div>
-        *******************************
       </div>
 
 		)

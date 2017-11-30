@@ -1,5 +1,17 @@
 //style.js
 const style = {
+	provider: {
+		backgroundColor: '#fafafa',
+		margin: '10px',
+		padding: '3px 10px',
+		fontSize: '.85rem'
+	},
+	providerList: {
+		border: '1px solid #f1f1f1',
+		padding: '0 12px',
+		maxHeight: '70vh',
+		overflow: 'scroll'
+	},
 	providerSearchForm: {
 		margin: '10px',
 		display: 'flex',

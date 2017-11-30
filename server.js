@@ -84,4 +84,4 @@ app.listen(port, function() {
 	console.log(`api running on port ${port}`);
 });
 
-mongoose.connect('mongodb://localhost:27017/healthcare', { useMongoClient: true });
+mongoose.connect('mongodb://admin:admin@ds119486.mlab.com:19486/healthcare', { useMongoClient: true });
