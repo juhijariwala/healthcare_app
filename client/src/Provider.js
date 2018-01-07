@@ -13,7 +13,7 @@ class Provider extends Component {
         <li> Hospital Referral Region Description: {this.props.data['Hospital Referral Region Description']} </li>
         <li> Total Discharges: {this.props.data['Total Discharges']} </li>
         <li> Average Covered Charges: {this.props.data['Average Covered Charges']} </li>
-        <li> Average Total Payments:  {this.props.data['Average Total Payments']} </li>
+        <li> Average Total Payments: {this.props.data['Average Total Payments']} </li>
         <li> Average Medicare Payments: {this.props.data['Average Medicare Payments']} </li>
       </ul>
 		)

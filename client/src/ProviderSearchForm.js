@@ -88,7 +88,7 @@ class ProviderSearchForm extends Component {
        onChange={ this.handleMinAverageConveredChargesChange } />
        <input
        type='text'
-       placeholder='Min Average Covered Charges'
+       placeholder='Max Average Covered Charges'
        style={ style.providerSearchFormText}
        value={ this.state.maxAverageCoveredCharges }
        onChange={ this.handleMaxAverageConveredChargesChange } />
@@ -98,16 +98,24 @@ class ProviderSearchForm extends Component {
        style={ style.providerSearchFormText}
        value={ this.state.minAverageMedicarePayments }
        onChange={ this.handleMinAverageMedicarePaymentsChange } />
+			 <input
+       type='text'
+       placeholder='Max Average Medicare Payments'
+       style={ style.providerSearchFormText}
+       value={ this.state.maxAverageMedicarePayments }
+       onChange={ this.handleMaxAverageMedicarePaymentsChange } />
        <input
        type='text'
        placeholder='State'
        style={ style.providerSearchFormText}
        value={ this.state.state }
        onChange={ this.handleStateChange } />
-       <input
+       <button
        type='submit'
        style={ style.providerSearchFormPost }
-       value='Post' />
+       value='Post' >
+			 Search
+			 </button>
       </form>
 		)
 	}

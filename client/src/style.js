@@ -20,7 +20,7 @@ const style = {
 	},
 	providerSearchFormText: {
 		flex: '4',
-		minWidth: '400px',
+		minWidth: '200px',
 		margin: '3px',
 		padding: '0 10px',
 		height: '40px',

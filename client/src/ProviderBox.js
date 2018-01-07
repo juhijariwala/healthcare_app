@@ -17,7 +17,7 @@ class ProviderBox extends Component {
 			})
 			.then(res => {
 				this.setState({ data: res.data });
-			})
+			});
 	}
 
 	render() {

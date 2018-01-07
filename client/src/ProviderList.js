@@ -6,7 +6,7 @@ class ProviderList extends Component {
 	render() {
 		let providerNodes = this.props.data.map(provider => {
 			return(
-				<Provider data= {provider}>
+				<Provider key={provider.name} data= {provider}>
         </Provider>
 			)
 		})
